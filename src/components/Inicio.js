@@ -1,8 +1,8 @@
 export default function Inicio() {
   return (
     <div>
-      <div class ="text-7xl flex font-extrabold px-10 py-10 sm:px-20 sm:py-20 md:px-30 md:py-30 lg:px-40 lg:py-40 justify-around items-center flex-wrap">
-        <div>
+      <div class ="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class ="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="lg:text-7xl text-2xl">Makeup By Yuli</h1>
 
           <div class="font-montserrat text-base font-normal mt-8">
@@ -15,9 +15,11 @@ export default function Inicio() {
             </button>
           </div>
         </div>
-        <div class="w-56 pt-8 lg:pt-0  ">
-
-          <img src="/img/logo192.png"></img>
+        <div class="w-56 pt-8 lg:pt-0 mr-14 flex">
+          <img 
+          class="object-cover object-center rounded"
+          alt="hero"
+          src="/img/makeup.jpeg"></img>
         </div>
       </div>
     </div>
