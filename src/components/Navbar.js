@@ -7,10 +7,10 @@ export default function Navbar() {
       
       <div>
         <ul class="flex align-items flex-start gap-8 ">
-          <li>Home</li>
-          <li>Servicio</li>
-          <li>Acerca de mi</li>
-          <li>Contacto</li>
+          <a href="Home">Home</a>
+          <a href="Servicio">Servicio</a>
+          <a href="Acerca de mi">Acerca de mi</a>
+          <a href="Contacto">Contacto</a>
         </ul>
       </div>
     </div>
